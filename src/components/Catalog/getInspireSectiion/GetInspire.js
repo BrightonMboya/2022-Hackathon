@@ -12,29 +12,13 @@ const GetInspire = () => {
 			<h2>Get Inspired</h2>
 			<div className="getInspire">
 				<div className="getInspire__grid--1">
-					<GetInspireLink
-						contentType={"Video"}
-						title={"What is a Programming Language?"}
-					/>
-					<GetInspireLink
-						contentType={"BLOG"}
-						title={"Our First Mobile Development Path Has Arrived"}
-					/>
-					<GetInspireLink
-						contentType={"video"}
-						title={"How to Think Like a Programmer"}
-					/>
-					<GetInspireLink
-						contentType={"video"}
-						title={"How Long Does it Take to Learn to Code?"}
-					/>
 
-					<InspireLinkWithImg
+					{/* <InspireLinkWithImg
 						img={resourseImg}
 						contentType={"resources"}
 						title={"Our best resources for students"}
 						spanCol={"span-2-Col"}
-					/>
+					/> */}
 				</div>
 
 				<div className="getInspire__grid--2">
@@ -66,33 +50,12 @@ const GetInspire = () => {
 								contentType={"article"}
 								title={"What is programming?"}
 							/>
-							<GetInspireLink
-								contentType={"video"}
-								title={
-									"Learn From Home Day: Intro to JavaScript—the Language of the Internet!"
-								}
-							/>
-							<GetInspireLink
-								contentType={"video"}
-								title={"What is Front-End?"}
-							/>
-							<GetInspireLink
-								contentType={"Blog"}
-								title={"Myspace and the Coding Legacy"}
-							/>
+	
 						</div>
 					</div>
 
-					<InspireLinkWithImg
-						img={videoSvg}
-						contentType={"Video"}
-						title={"What is Back-End?"}
-						spanCol={"span-1-Col"}
-					/>
 				</div>
 			</div>
-
-			<button className="getInspire--btn btn">See Full Catalog</button>
 		</div>
 	);
 };

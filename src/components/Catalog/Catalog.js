@@ -6,39 +6,20 @@ import NewsNoteWorth from "./newsNoteWorthy/NewsNoteWorth";
 import GetInpsire from "./getInspireSectiion/GetInspire";
 import Footer from "../footer/Footer";
 import Accordion from "./accordion/Accordion";
+
 const languages = [
 	"HTML & CSS",
 	"Python",
 	"JavaScript",
-	"Java",
-	"SQL",
-	"Bash/Shell",
-	"Ruby",
-	"C++",
-	"R",
-	"C#",
-	"PHP",
-	"Go",
-	"Swift",
-	"Kotlin",
 ];
 const subjects = [
 	"Web Development",
-
 	"Data Science",
-	"Computer Science",
-	"Developer Tools",
-	"Machine Learning",
-
-	"Code Foundations",
-	"Web design",
-	"Full Catalog",
-	"Beta Content Roadmap",
 ];
 
 const Catalog = () => {
 	useEffect(() => {
-		document.title = "Catalog Home | Codecademy";
+		document.title = "Catalog Home | Rash.Ed";
 	}, []);
 	return (
 		<div className="catalogContainer__outer">

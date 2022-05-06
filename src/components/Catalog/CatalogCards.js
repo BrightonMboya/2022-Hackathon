@@ -26,7 +26,7 @@ const CatalogCard = () => {
 			<CareerPathCard title={"Front-End engineer"} svg={curriculum} />
 
 			<div className="cardContainer__subgrid-1-row">
-				<CourseCard title={"Learn Javascript"} />
+				{/* <CourseCard title={"Learn Javascript"} /> */}
 
 				<ExploreCard
 					title={"Explore all web development"}
@@ -58,7 +58,7 @@ const CatalogCard = () => {
 
 			<div className="cardContainer__subgrid-1-row">
 				<CareerPathCard title={"Data Scientist"} svg={dataScientist} />
-				<CourseCard title={"Welcome to Codecademy"} />
+				<CourseCard title={"Welcome to Rash.Ed"} />
 			</div>
 		</div>
 	);

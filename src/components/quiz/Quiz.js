@@ -6,7 +6,7 @@ import quizSvg_bg from "../../assests/svg/quiz/quiz-bg.svg";
 const Quiz = () => {
 	return (
 		<div className="quiz">
-			<button className="quiz__catalog-btn">Catalog Menu →</button>
+			{/* <button className="quiz__catalog-btn">Catalog Menu →</button> */}
 
 			<a href="#" className="quiz__box">
 				<div className="quiz__box-items">
@@ -16,8 +16,8 @@ const Quiz = () => {
 						alt="quiz svg"
 						className="quizSvg_2--bg"
 					/>
-					<p>Not sure where to begin?</p>
-					<p className="quiz__box-items-link">Take our quiz →</p>
+					<p>Become a Software Engineer in Rwanda</p>
+					<p className="quiz__box-items-link"></p>
 
 					<img src={quizSvg_2} alt="quiz svg" className="quizSvg_2" />
 				</div>

@@ -6,26 +6,23 @@ import CourseCard from "../catalogCard/CourseCard";
 const NewsNoteWorth = () => {
 	return (
 		<div className="newsNoteWorth">
-			<h2>New + Noteworthy</h2>
+			<h2>Editor's Note</h2>
 			<div className="newsGrid">
 				<a href="#" className="newsGrid__link">
-					<h3>Pro student</h3>
-					<h1>Students can join Pro for 35% less</h1>
+					<h3>Rash.Ed student</h3>
 					<p>
-						With new Codecademy Pro Student memberships, eligible
-						college students can get all the benefits of Pro for
-						more than 35% off the regular price. Study, practice,
-						and apply the coding skills you need to develop your own
-						future.
+						Rash.Ed helps you to be career ready in the Tech-Industry
+						With our free curated curriculums, you will be able to learn the 
+						necessary skills
 					</p>
 				</a>
 				<ProgrammingLangCard
-					title={"design database with PostgreSQL"}
+					title={"Python for Data Science"}
 				/>
 				<ProgrammingLangCard
-					title={"create a professional website with wiz"}
+					title={"Learn Flutter"}
 				/>
-				<CourseCard title={"learn react"} />
+				<CourseCard title={"Learn MERN Stack"} />
 			</div>
 		</div>
 	);

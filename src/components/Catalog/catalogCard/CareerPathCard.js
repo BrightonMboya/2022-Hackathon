@@ -5,7 +5,7 @@ const CareerPathCard = ({ title, svg }) => {
 	return (
 		<a href="#" className="catalogCard career__path">
 			<p>
-				<span className="career__path-difficulty">pro</span> career path
+				<span className="career__path-difficulty"></span> Software Engineering Path
 			</p>
 			<h3>{title}</h3>
 			<div className="course__level">
@@ -15,8 +15,8 @@ const CareerPathCard = ({ title, svg }) => {
 					Beginner friendly
 				</div>
 			</div>
-			<img src={svg} alt="" className="career__path--svg" />
-			<p className="career__path--job">job essentials</p>
+			{/* <img src={svg} alt="" className="career__path--svg" /> */}
+			<p className="career__path--job">Get Started</p>
 		</a>
 	);
 };

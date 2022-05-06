@@ -50,7 +50,8 @@ const NavBar = () => {
 
 	return (
 		<div className="navbar">
-			<img src={logo} alt="logo" className="navbar__logo" />
+			{/* <img src={logo} alt="logo" className="navbar__logo" /> */}
+			<h3 className="navbar__logo">Rash.Ed</h3>
 			<div className="navbarItems">
 				<NavbarItems />
 			</div>
@@ -82,7 +83,7 @@ const NavBar = () => {
 						<div className="navbar__mobile-list">
 							<DropDownItems />
 							<button className="dropdown-mobile-btn btn">
-								Try pro for free
+								Sign Up
 							</button>
 						</div>
 					</>

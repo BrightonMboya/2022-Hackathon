@@ -5,8 +5,7 @@ const ProgrammingLangCard = ({ title }) => {
 	return (
 		<a href="#" className="catalogCard programmingLang">
 			<p>
-				<span className="programmingLang-difficulty">pro</span> career
-				path
+				<span className="programmingLang-difficulty"></span>Data Science Path
 			</p>
 			<h3>{title}</h3>
 			<div className="course__level">
@@ -16,7 +15,7 @@ const ProgrammingLangCard = ({ title }) => {
 					Beginner friendly
 				</div>
 			</div>
-			<p className="programmingLang--job">job essentials</p>
+			<p className="programmingLang--job">Get Started</p>
 		</a>
 	);
 };
