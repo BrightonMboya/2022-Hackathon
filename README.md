@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Link to the Deployed Site:
+(`https://2022-hackathon-ten.vercel.app/`)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Link to the Slide Deck:
+(`https://docs.google.com/presentation/d/12GlyCm137sODj6eIvovTqUv6vuPd_OulADgnqCmnzXA/edit?usp=sharing`)
+
+# Link to the Video Demo:
+(`https://www.loom.com/share/d72202c9a15a4927bb817c37eeb6eb95`)
+
+## Getting Started
+Git Clone
+npm install
+npm start
 
 ## Available Scripts
 
