@@ -1,12 +1,12 @@
 # Link to the Deployed Site:
-(`https://2022-hackathon-ten.vercel.app/`)
+[Deployed Site on Vercel](https://2022-hackathon-ten.vercel.app/)
 
 
 # Link to the Slide Deck:
-(`https://docs.google.com/presentation/d/12GlyCm137sODj6eIvovTqUv6vuPd_OulADgnqCmnzXA/edit?usp=sharing`)
+[Slide Deck](https://docs.google.com/presentation/d/12GlyCm137sODj6eIvovTqUv6vuPd_OulADgnqCmnzXA/edit?usp=sharing)
 
 # Link to the Video Demo:
-(`https://www.loom.com/share/d72202c9a15a4927bb817c37eeb6eb95`)
+[Video Demo](https://www.loom.com/share/d72202c9a15a4927bb817c37eeb6eb95)
 
 ## Getting Started
 Git Clone
